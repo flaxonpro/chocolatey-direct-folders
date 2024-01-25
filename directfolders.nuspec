@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>directfolders</id>
+    <version>4.2.0</version>
+    <title>Direct Folders</title>
+    <authors>Code Sector</authors>
+    <projectUrl>https://blog.codesector.com/category/directfolders/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/flaxonpro/chocolatey-direct-folders/afaa8306b5cd18bd8561aff72c8ed5fe11038cb2/DirectFolder.png</iconUrl>
+     <licenseUrl>https://support.codesector.com/en/articles/8789959-end-user-license-agreement</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/flaxonpro/chocolatey-direct-folders</packageSourceUrl>
+    <tags>directfolders</tags>
+    <summary>Direct Folders simplifies file navigation by offering quick access to favorite folders and enabling one-click jumps to deeply nested directories.</summary>
+    <description>Just double click on an empty area located on the Desktop, Explorer or File Open/Save dialog box to bring up a menu. Select a favorite or recent folder from this menu and the file dialog immediately jumps to that folder. If you activate this menu from the desktop or tray icon, this folder will be opened in Windows Explorer. Now you can jump to any deeply nested folder in just a single mouse click! It also automatically resizes every standard file dialog, so that you can see a larger number of files. You will be able to find what you are looking for with a lot less scrolling.</description>
+    <releaseNotes>https://blog.codesector.com/2023/11/03/direct-folders-4-2/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
